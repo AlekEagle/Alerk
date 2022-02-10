@@ -13,6 +13,11 @@
       "name": "Value",
       "region": "Value",
       "biderictional": false
+    },
+    "en_us": {
+      "name": "Value",
+      "region": "Value",
+      "biderectional": false
     }
   }
 }
