@@ -1,0 +1,21 @@
+of.options.AO_LEVEL=Option
+
+of.options.DYNAMIC_FOV=Option
+
+of.options.DYNAMIC_LIGHTS=Option
+of.options.DYNAMIC_LIGHTS.tooltip.1=Dynamic Lights
+
+of.options.animations=Option
+
+of.options.capeOF.title=Options
+of.options.capeOF.openEditor=Option
+of.options.capeOF.reloadCape=Option
+
+of.options.details=Option
+of.options.other=Option
+of.options.performance=Option
+of.options.quality=Option
+of.options.shaders=Option
+
+of.options.skinCustomisation.ofCape=Option
+
