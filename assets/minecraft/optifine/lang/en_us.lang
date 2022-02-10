@@ -12,6 +12,7 @@ of.options.capeOF.openEditor=Option
 of.options.capeOF.reloadCape=Option
 
 of.options.details=Option
+of.options.framerateLimit.vsync=Value
 of.options.other=Option
 of.options.performance=Option
 of.options.quality=Option

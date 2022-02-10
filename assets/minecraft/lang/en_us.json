@@ -1,6 +1,4 @@
 {
-  "disconnect.lost": "Skill Issue",
-
   "block.minecraft.ancient_debris": "Cheese",
   "block.minecraft.deepslate_diamond_ore": "Deepslate Pepperoni Ore",
   "block.minecraft.diamond_ore": "Pepperoni Ore",
@@ -10,8 +8,20 @@
   "block.minecraft.obsidian": "Crust",
   "block.minecraft.sugar_cane": "Tomato",
 
+  "commands.publish.started": "Reach for that slash key, you disgusting cheater.",
+
+  "disconnect.lost": "Skill Issue",
+
   "entity.minecraft.cow": "Penis",
 
+  "generator.amplified": "Value",
+  "generator.amplified.info": "",
+  "generator.default": "Value",
+  "generator.flat": "Value",
+  "generator.large_biomes": "Value",
+  "generator.single_biome_surface": "Value",
+
+  "gui.cancel": "Cope",
   "gui.done": "Option",
   "gui.toMenu": "Cope",
 
@@ -29,6 +39,7 @@
   "item.minecraft.diamond_pickaxe": "Pepperoni Pickaxe",
   "item.minecraft.diamond_shovel": "Pepperoni Shovel",
   "item.minecraft.diamond_sword": "Pepperoni Sword",
+  "item.minecraft.honey_bottle": "Gamer Girl Spunk",
   "item.minecraft.leather": "Foreskin",
   "item.minecraft.milk_bucket": "Cum Bucket",
   "item.minecraft.netherite_axe": "Cheesy Pepperoni Axe",
@@ -44,16 +55,28 @@
   "item.minecraft.netherite_sword": "Cheesy Pepperoni Sword",
   "item.minecraft.paper": "Sauce",
 
+  "lanServer.otherPlayers": "Click the option on the right the correct number of times.",
+  "lanServer.start": "Submit Test",
+  "lanServer.title": "Admit it, you're here to enable cheats. First, you must pass a test.",
+
+  "language.name": "Value",
+
   "menu.disconnect": "Cope",
+  "menu.multiplayer": "Create More Problems",
+  "menu.online": "Create Financial Problems",
   "menu.options": "Options...",
   "menu.quit": "Touch Grass",
-  "menu.returnToGame": "Run From Your Problems",
+  "menu.returnToGame": "Escape Your Problems",
   "menu.returnToMenu": "Cope",
+  "menu.singleplayer": "Escape Your Problems",
+  "menu.shareToLan": "Enable Cheats",
 
   "multiplayer.disconnect.kicked": ":trol:",
+  "multiplayer.player.joined": "%s is here to kick ass and chew bubblegum, and they're all out of ass",
+  "multiplayer.player.joined.renamed": "%s (formerly known as %s) is here to kick ass and chew bubblegum, and they're all out of ass",
+  "multiplayer.player.left": "%s is coping with reality now",
 
   "options.accessibility.title": "Option",
-
   "options.ao": "Option",
   "options.ao.off": "Value",
   "options.ao.min": "Value",
@@ -62,9 +85,15 @@
   "options.attack.hotbar": "Value",
   "options.attackIndicator": "Option",
   "options.audioDevice": "Option",
+  "options.audioDevice.default": "Value",
   "options.chat.title": "Option",
   "options.chunks": "Value",
   "options.controls": "Option",
+  "options.difficulty": "Option",
+  "options.difficulty.peaceful": "Value",
+  "options.difficulty.easy": "Value",
+  "options.difficulty.normal": "Value",
+  "options.difficulty.hard": "Value",
   "options.entityShadows": "Option",
   "options.fov": "Option",
   "options.fov.min": "Value",
@@ -95,6 +124,7 @@
   "options.modelPart.right_pants_leg": "Option",
   "options.off": "Value",
   "options.on": "Value",
+  "options.online": "Option",
   "options.renderDistance": "Option",
   "options.resourcepack": "Option",
   "options.showSubtitles": "Option",
@@ -106,6 +136,40 @@
   "options.video": "Option",
   "options.videoTitle": "Options",
 
+  "selectWorld.allowCommands": "Option",
+  "selectWorld.allowCommands.info": "",
+  "selectWorld.bonusItems": "Option",
+  "selectWorld.create": "Create New Metaverse",
+  "selectWorld.customizeType": "Option",
+  "selectWorld.dataPacks": "Option",
+  "selectWorld.enterName": "I,",
+  "selectWorld.gameMode": "Mode",
+  "selectWorld.gameMode.adventure": "Obligatory Nightmare",
+  "selectWorld.gameMode.adventure.line1": "99.99999% impossible",
+  "selectWorld.gameMode.adventure.line2": "",
+  "selectWorld.gameMode.creative": "Wimp",
+  "selectWorld.gameMode.creative.line1": "Wimp mode for babies",
+  "selectWorld.gameMode.creative.line2": "",
+  "selectWorld.gameMode.hardcore": "Survival",
+  "selectWorld.gameMode.hardcore.line1": "Actual gameplay",
+  "selectWorld.gameMode.hardcore.line2": "",
+  "selectWorld.gameMode.spectator": "Wimp",
+  "selectWorld.gameMode.spectator.line1": "Wimp mode for babies",
+  "selectWorld.gameMode.spectator.line2": "",
+  "selectWorld.gameMode.survival": "Wimp",
+  "selectWorld.gameMode.survival.line1": "Wimp mode for babies",
+  "selectWorld.gameMode.survival.line2": "",
+  "selectWorld.gameRules": "Option",
+  "selectWorld.import_worldgen_settings": "Option",
+  "selectWorld.mapFeatures": "Option",
+  "selectWorld.mapFeatures.info": "",
+  "selectWorld.mapType": "Option",
+  "selectWorld.moreWorldOptions": "Option",
+  "selectWorld.newWorld": "*Insert Full Legal Name*",
+  "selectWorld.resultFolder": "sign away my soul to Meta Platforms Inc. Signed,",
+  "selectWorld.select": "Play Selected Metaverse",
+  "selectWorld.title": "Select Metaverse",
+
   "soundCategory.master": "Option",
   "soundCategory.music": "Option",
   "soundCategory.record": "Option",
@@ -116,6 +180,7 @@
   "soundCategory.block": "Option",
   "soundCategory.ambient": "Option",
   "soundCategory.voice": "Option",
+
   "subtitles.entity.creeper.primed": "I'm going to explode now, goodbye!",
   "subtitles.entity.tnt.primed": "I'm going to explode now, goodbye!",
   "subtitles.entity.cow.ambient": "Penis moos",
@@ -123,6 +188,7 @@
   "subtitles.entity.cow.hurt": "Penis hurts",
   "subtitles.entity.cow.milk": "Penis Cums",
   "subtitles.entity.player.hurt": "Ow",
+
   "debug.crash.message": "F3 + C is held down. Please keep holding this down.",
   "debug.crash.warning": "Cake in %s..."
 }
