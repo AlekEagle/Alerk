@@ -35,5 +35,7 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           artifacts: 'Alerk.zip'
+          tag: latest
+          allowUpdates: true
           bodyFile: 'README.md'
           token: ${{ secrets.GITHUB_TOKEN }}
