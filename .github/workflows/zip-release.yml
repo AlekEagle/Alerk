@@ -31,11 +31,17 @@ jobs:
           directory: .
           exclusions: '*.git* README.md'
 
+      - uses: dev-drprasad/delete-tag-and-release@v0.2.0
+        with:
+          delete_release: true
+          tag_name: latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Create Release
         uses: ncipollo/release-action@v1
         with:
           artifacts: 'Alerk.zip'
           tag: latest
-          allowUpdates: true
           bodyFile: 'README.md'
           token: ${{ secrets.GITHUB_TOKEN }}
