@@ -29,9 +29,7 @@ jobs:
           filename: Alerk.zip
           path: .
           directory: .
-          exclusions: 
-            - README.md
-            - .github
+          exclusions: [ .github, README.md ]
       
       - name: Create Release
         uses: ncipollo/release-action@v1
