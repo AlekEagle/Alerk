@@ -38,4 +38,4 @@ jobs:
         with:
           artifacts: "Alerk.zip"
           bodyFile: "README.md"
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.API_TOKEN }}
