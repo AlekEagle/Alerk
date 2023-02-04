@@ -77,6 +77,7 @@
   "menu.shareToLan": "Enable Cheats",
   "menu.sendFeedback": "Get ignored",
   "menu.reportBugs": "Get ignored",
+  "menu.playerReporting": "Get ignored",
 
   "multiplayer.disconnect.kicked": ":trol:",
   "multiplayer.player.joined": "%s is here to kick ass and chew bubblegum, and they're all out of ass",
