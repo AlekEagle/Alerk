@@ -1,0 +1,147 @@
+{
+  "entity.creeper.primed": {
+    "replace": true,
+    "category": "hostile",
+    "sounds": [{ "name": "random/fuse", "volume": 1.0, "pitch": 3.5 }]
+  },
+  "block.bone_block.place": {
+    "replace": true,
+    "category": "neutral",
+    "sounds": [{ "name": "random/bad_to_the_bone", "volume": 1.0 }]
+  },
+  "block.bone_block.break": {
+    "replace": true,
+    "category": "neutral",
+    "sounds": [{ "name": "random/bad_to_the_bone", "volume": 1.0 }]
+  },
+  "block.bone_block.hit": {
+    "replace": true,
+    "category": "neutral",
+    "sounds": [{ "name": "random/bad_to_the_bone", "volume": 1.0 }]
+  },
+  "block.bone_block.fall": {
+    "replace": true,
+    "category": "neutral",
+    "sounds": [{ "name": "random/bad_to_the_bone", "volume": 1.0 }]
+  },
+  "block.bone_block.step": {
+    "replace": true,
+    "category": "neutral",
+    "sounds": [{ "name": "random/bad_to_the_bone", "volume": 1.0 }]
+  },
+  "entity.skeleton.hurt": {
+    "replace": true,
+    "category": "hostile",
+    "sounds": [{ "name": "random/bad_to_the_bone", "volume": 1.0 }]
+  },
+  "entity.skeleton.death": {
+    "replace": true,
+    "category": "hostile",
+    "sounds": [{ "name": "random/bad_to_the_bone", "volume": 1.0 }]
+  },
+  "entity.skeleton.ambient": {
+    "replace": true,
+    "category": "hostile",
+    "sounds": [{ "name": "random/bad_to_the_bone", "volume": 1.0 }]
+  },
+  "entity.skeleton.shoot": {
+    "replace": true,
+    "category": "hostile",
+    "sounds": [{ "name": "random/bad_to_the_bone", "volume": 1.0 }]
+  },
+  "entity.skeleton.step": {
+    "replace": true,
+    "category": "hostile",
+    "sounds": [{ "name": "random/bad_to_the_bone", "volume": 1.0 }]
+  },
+  "entity.skeleton_horse.ambient": {
+    "replace": true,
+    "category": "neutral",
+    "sounds": [{ "name": "random/bad_to_the_bone", "volume": 1.0 }]
+  },
+  "entity.skeleton_horse.death": {
+    "replace": true,
+    "category": "neutral",
+    "sounds": [{ "name": "random/bad_to_the_bone", "volume": 1.0 }]
+  },
+  "entity.skeleton_horse.hurt": {
+    "replace": true,
+    "category": "neutral",
+    "sounds": [{ "name": "random/bad_to_the_bone", "volume": 1.0 }]
+  },
+  "entity.skeleton_horse.step": {
+    "replace": true,
+    "category": "neutral",
+    "sounds": [{ "name": "random/bad_to_the_bone", "volume": 1.0 }]
+  },
+  "entity.skeleton_horse.swim": {
+    "replace": true,
+    "category": "neutral",
+    "sounds": [{ "name": "random/bad_to_the_bone", "volume": 1.0 }]
+  },
+  "entity.skeleton_horse.angry": {
+    "replace": true,
+    "category": "neutral",
+    "sounds": [{ "name": "random/bad_to_the_bone", "volume": 1.0 }]
+  },
+  "entity.skeleton_horse.gallop": {
+    "replace": true,
+    "category": "neutral",
+    "sounds": [{ "name": "random/bad_to_the_bone", "volume": 1.0 }]
+  },
+  "entity.skeleton_horse.jump": {
+    "replace": true,
+    "category": "neutral",
+    "sounds": [{ "name": "random/bad_to_the_bone", "volume": 1.0 }]
+  },
+  "entity.skeleton_horse.breathe": {
+    "replace": true,
+    "category": "neutral",
+    "sounds": [{ "name": "random/bad_to_the_bone", "volume": 1.0 }]
+  },
+  "entity.skeleton_horse.ambient_water": {
+    "replace": true,
+    "category": "neutral",
+    "sounds": [{ "name": "random/bad_to_the_bone", "volume": 1.0 }]
+  },
+  "entity.skeleton_horse.gallop_water": {
+    "replace": true,
+    "category": "neutral",
+    "sounds": [{ "name": "random/bad_to_the_bone", "volume": 1.0 }]
+  },
+  "entity.skeleton_horse.jump_water": {
+    "replace": true,
+    "category": "neutral",
+    "sounds": [{ "name": "random/bad_to_the_bone", "volume": 1.0 }]
+  },
+  "entity.skeleton_horse.step_water": {
+    "replace": true,
+    "category": "neutral",
+    "sounds": [{ "name": "random/bad_to_the_bone", "volume": 1.0 }]
+  },
+  "entity.villager.celebrate": {
+    "replace": true,
+    "category": "neutral",
+    "sounds": ["mob/villager/yes1", "mob/villager/yes2"]
+  },
+  "entity.villager.no": {
+    "replace": true,
+    "category": "neutral",
+    "sounds": ["mob/villager/no1", "mob/villager/no2"]
+  },
+  "entity.villager.hurt": {
+    "replace": true,
+    "category": "neutral",
+    "sounds": ["damage/hit1"]
+  },
+  "entity.player.hurt": {
+    "replace": true,
+    "category": "neutral",
+    "sounds": ["damage/hit1"]
+  },
+  "entity.player.death": {
+    "replace": true,
+    "category": "neutral",
+    "sounds": ["damage/death"]
+  }
+}
