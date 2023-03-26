@@ -143,5 +143,15 @@
     "replace": true,
     "category": "neutral",
     "sounds": ["damage/death"]
+  },
+  "entity.creeper.death": {
+    "replace": true,
+    "category": "hostile",
+    "sounds": ["mob/creeper/death"]
+  },
+  "entity.creeper.hurt": {
+    "replace": true,
+    "category": "hostile",
+    "sounds": ["mob/creeper/hurt"]
   }
 }
