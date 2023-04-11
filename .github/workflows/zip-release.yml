@@ -20,6 +20,12 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      - name: Set short git commit SHA
+        id: vars
+        run: |
+          calculatedSha=$(git rev-parse --short ${{ github.sha }})
+          echo "::set-output name=short_sha::$calculatedSha"
+          
       - name: Checkout Repository
         uses: actions/checkout@v2
 
@@ -31,18 +37,11 @@ jobs:
       - name: Run Bundle Script
         run: node bundle.js --no-cheese
 
-      - name: Remove Old Release
-        uses: dev-drprasad/delete-tag-and-release@v0.2.1
-        with:
-          delete_release: true
-          tag_name: latest
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Create Release
         uses: ncipollo/release-action@v1
         with:
           artifacts: 'pack.zip'
-          tag: latest
+          tag: ${{ steps.vars.outputs.short_sha }}
+          makeLatest: true
           bodyFile: 'README.md'
           token: ${{ secrets.GITHUB_TOKEN }}
