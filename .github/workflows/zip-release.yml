@@ -20,15 +20,14 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+        
       - name: Set short git commit SHA
         id: vars
         run: |
           calculatedSha=$(git rev-parse --short ${{ github.sha }})
           echo "::set-output name=short_sha::$calculatedSha"
-          
-      - name: Checkout Repository
-        uses: actions/checkout@v2
-
       - name: Install Node
         uses: actions/setup-node@v2
         with:
