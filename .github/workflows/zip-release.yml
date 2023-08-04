@@ -27,7 +27,7 @@ jobs:
         id: vars
         run: |
           calculatedSha=$(git rev-parse --short ${{ github.sha }})
-          echo "name=short_sha::$calculatedSha" >> $GITHUB_OUTPUT
+          echo "short_sha=$calculatedSha" >> $GITHUB_OUTPUT
       - name: Install Node
         uses: actions/setup-node@v2
         with:
@@ -45,7 +45,7 @@ jobs:
           artifacts: |
             Alerk-cheese.zip
             Alerk-no-cheese.zip
-          tag: ${{ steps.vars.outputs.short_sha }}
+          tag: ${{ env.short_sha }}
           makeLatest: true
           bodyFile: "README.md"
           token: ${{ secrets.GITHUB_TOKEN }}
