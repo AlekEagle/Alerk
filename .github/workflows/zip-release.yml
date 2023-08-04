@@ -22,7 +22,7 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
-        
+
       - name: Set short git commit SHA
         id: vars
         run: |
@@ -31,16 +31,21 @@ jobs:
       - name: Install Node
         uses: actions/setup-node@v2
         with:
-          node-version: '16'
+          node-version: "16"
 
-      - name: Run Bundle Script
+      - name: Bundle the funny (No Cheese Variant)
         run: node bundle.js --no-cheese
+
+      - name: Bundle the funny (Cheese Variant)
+        run: node bundle.js
 
       - name: Create Release
         uses: ncipollo/release-action@v1
         with:
-          artifacts: 'pack.zip'
+          artifacts: |
+            Alerk-cheese.zip
+            Alerk-no-cheese.zip
           tag: ${{ steps.vars.outputs.short_sha }}
           makeLatest: true
-          bodyFile: 'README.md'
+          bodyFile: "README.md"
           token: ${{ secrets.GITHUB_TOKEN }}
