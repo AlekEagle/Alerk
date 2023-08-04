@@ -45,7 +45,7 @@ jobs:
           artifacts: |
             Alerk-cheese.zip
             Alerk-no-cheese.zip
-          tag: ${{ env.short_sha }}
+          tag: ${{ steps.vars.outputs.short_sha }}
           makeLatest: true
           bodyFile: "README.md"
           token: ${{ secrets.GITHUB_TOKEN }}
