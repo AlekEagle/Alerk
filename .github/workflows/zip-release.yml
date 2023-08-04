@@ -27,7 +27,7 @@ jobs:
         id: vars
         run: |
           calculatedSha=$(git rev-parse --short ${{ github.sha }})
-          echo "::set-output name=short_sha::$calculatedSha"
+          echo "name=short_sha::$calculatedSha" >> $GITHUB_OUTPUT
       - name: Install Node
         uses: actions/setup-node@v2
         with:
