@@ -1,5 +1,5 @@
 *.orig
 build
-pack.zip
+*.zip
 
 .DS_Store
