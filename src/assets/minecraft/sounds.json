@@ -153,5 +153,20 @@
     "replace": true,
     "category": "hostile",
     "sounds": ["mob/creeper/hurt"]
+  },
+  "entity.zombie.hurt": {
+    "replace": true,
+    "category": "hostile",
+    "sounds": ["mob/zombie/hurt"]
+  },
+  "entity.zombie.death": {
+    "replace": true,
+    "category": "hostile",
+    "sounds": ["mob/zombie/death"]
+  },
+  "entity.zombie.ambient": {
+    "replace": true,
+    "category": "hostile",
+    "sounds": ["mob/zombie/say1", "mob/zombie/say2", "mob/zombie/say3"]
   }
 }
