@@ -168,5 +168,10 @@
     "replace": true,
     "category": "hostile",
     "sounds": ["mob/zombie/say1", "mob/zombie/say2", "mob/zombie/say3"]
+  },
+  "entity.generic.eat": {
+    "sounds": ["random/eat"],
+    "subtitle": "subtitles.entity.generic.eat",
+    "replace": true
   }
 }
