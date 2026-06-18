@@ -173,5 +173,501 @@
     "sounds": ["random/eat"],
     "subtitle": "subtitles.entity.generic.eat",
     "replace": true
+  },
+  "item.armor.equip_iron": {
+    "sounds": [
+      {
+        "name": "random/metal",
+        "pitch": 0.8,
+        "weight": 1
+      },
+      {
+        "name": "random/metal",
+        "pitch": 0.9,
+        "weight": 1
+      },
+      {
+        "name": "random/metal",
+        "pitch": 1,
+        "weight": 1
+      },
+      {
+        "name": "random/metal",
+        "pitch": 1.1,
+        "weight": 1
+      },
+      {
+        "name": "random/metal",
+        "pitch": 1.2,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut1",
+        "pitch": 0.8,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut1",
+        "pitch": 0.9,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut1",
+        "pitch": 1,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut1",
+        "pitch": 1.1,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut1",
+        "pitch": 1.2,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut2",
+        "pitch": 0.8,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut2",
+        "pitch": 0.9,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut2",
+        "pitch": 1,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut2",
+        "pitch": 1.1,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut2",
+        "pitch": 1.2,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut3",
+        "pitch": 0.8,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut3",
+        "pitch": 0.9,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut3",
+        "pitch": 1,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut3",
+        "pitch": 1.1,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut3",
+        "pitch": 1.2,
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.item.armor.equip_iron",
+    "replace": true
+  },
+  "block.iron.place": {
+    "sounds": [
+      {
+        "name": "random/metal",
+        "pitch": 0.8,
+        "weight": 1
+      },
+      {
+        "name": "random/metal",
+        "pitch": 0.9,
+        "weight": 1
+      },
+      {
+        "name": "random/metal",
+        "pitch": 1,
+        "weight": 1
+      },
+      {
+        "name": "random/metal",
+        "pitch": 1.1,
+        "weight": 1
+      },
+      {
+        "name": "random/metal",
+        "pitch": 1.2,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut1",
+        "pitch": 0.8,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut1",
+        "pitch": 0.9,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut1",
+        "pitch": 1,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut1",
+        "pitch": 1.1,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut1",
+        "pitch": 1.2,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut2",
+        "pitch": 0.8,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut2",
+        "pitch": 0.9,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut2",
+        "pitch": 1,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut2",
+        "pitch": 1.1,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut2",
+        "pitch": 1.2,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut3",
+        "pitch": 0.8,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut3",
+        "pitch": 0.9,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut3",
+        "pitch": 1,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut3",
+        "pitch": 1.1,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut3",
+        "pitch": 1.2,
+        "weight": 1
+      }
+    ],
+    "replace": true,
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.iron.break": {
+    "sounds": [
+      {
+        "name": "random/metal",
+        "pitch": 0.6,
+        "volume": 1,
+        "weight": 1
+      },
+      {
+        "name": "random/metal",
+        "pitch": 0.7,
+        "volume": 1,
+        "weight": 1
+      },
+      {
+        "name": "random/metal",
+        "pitch": 0.8,
+        "volume": 1,
+        "weight": 1
+      },
+      {
+        "name": "random/metal",
+        "pitch": 0.9,
+        "volume": 1,
+        "weight": 1
+      }
+    ],
+    "replace": true,
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.iron.hit": {
+    "sounds": [
+      {
+        "name": "random/metal",
+        "pitch": 0.6,
+        "volume": 0.7,
+        "weight": 1
+      },
+      {
+        "name": "random/metal",
+        "pitch": 0.7,
+        "volume": 0.7,
+        "weight": 1
+      },
+      {
+        "name": "random/metal",
+        "pitch": 0.8,
+        "volume": 0.7,
+        "weight": 1
+      },
+      {
+        "name": "random/metal",
+        "pitch": 0.9,
+        "volume": 0.7,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut1",
+        "pitch": 0.6,
+        "volume": 0.7,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut1",
+        "pitch": 0.7,
+        "volume": 0.7,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut1",
+        "pitch": 0.8,
+        "volume": 0.7,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut1",
+        "pitch": 0.9,
+        "volume": 0.7,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut2",
+        "pitch": 0.6,
+        "volume": 0.7,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut2",
+        "pitch": 0.7,
+        "volume": 0.7,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut2",
+        "pitch": 0.8,
+        "volume": 0.7,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut2",
+        "pitch": 0.9,
+        "volume": 0.7,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut3",
+        "pitch": 0.6,
+        "volume": 0.7,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut3",
+        "pitch": 0.7,
+        "volume": 0.7,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut3",
+        "pitch": 0.8,
+        "volume": 0.7,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut3",
+        "pitch": 0.9,
+        "volume": 0.7,
+        "weight": 1
+      }
+    ],
+    "replace": true,
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.iron.step": {
+    "sounds": [
+      {
+        "name": "random/metal",
+        "pitch": 0.6,
+        "volume": 0.7,
+        "weight": 1
+      },
+      {
+        "name": "random/metal",
+        "pitch": 0.7,
+        "volume": 0.7,
+        "weight": 1
+      },
+      {
+        "name": "random/metal",
+        "pitch": 0.8,
+        "volume": 0.7,
+        "weight": 1
+      },
+      {
+        "name": "random/metal",
+        "pitch": 0.9,
+        "volume": 0.7,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut1",
+        "pitch": 0.6,
+        "volume": 0.7,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut1",
+        "pitch": 0.7,
+        "volume": 0.7,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut1",
+        "pitch": 0.8,
+        "volume": 0.7,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut1",
+        "pitch": 0.9,
+        "volume": 0.7,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut2",
+        "pitch": 0.6,
+        "volume": 0.7,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut2",
+        "pitch": 0.7,
+        "volume": 0.7,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut2",
+        "pitch": 0.8,
+        "volume": 0.7,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut2",
+        "pitch": 0.9,
+        "volume": 0.7,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut3",
+        "pitch": 0.6,
+        "volume": 0.7,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut3",
+        "pitch": 0.7,
+        "volume": 0.7,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut3",
+        "pitch": 0.8,
+        "volume": 0.7,
+        "weight": 1
+      },
+      {
+        "name": "random/metal_comedic_cut3",
+        "pitch": 0.9,
+        "volume": 0.7,
+        "weight": 1
+      }
+    ],
+    "replace": true,
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.anvil.use": {
+    "sounds": [
+      {
+        "name": "random/metal_but_anvil_use",
+        "volume": 2
+      }
+    ],
+    "replace": true,
+    "subtitle": "subtitles.block.anvil.use"
+  },
+  "block.anvil.destroy": {
+    "sounds": [
+      {
+        "name": "random/metal_but_anvil_use",
+        "volume": 2
+      }
+    ],
+    "replace": true,
+    "subtitle": "subtitles.block.anvil.destroy"
+  },
+  "block.anvil.break": {
+    "sounds": [
+      {
+        "name": "random/metal_but_really_loud",
+        "volume": 2
+      }
+    ],
+    "replace": true,
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.anvil.land": {
+    "sounds": [
+      {
+        "name": "random/metal_but_really_loud",
+        "volume": 10
+      }
+    ],
+    "replace": true,
+    "subtitle": "subtitles.block.anvil.land"
+  },
+  "block.anvil.place": {
+    "sounds": [
+      {
+        "name": "random/metal_but_really_loud",
+        "volume": 2
+      }
+    ],
+    "replace": true,
+    "subtitle": "subtitles.block.generic.place"
   }
 }

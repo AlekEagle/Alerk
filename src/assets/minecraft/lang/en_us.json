@@ -70,6 +70,9 @@
   "item.minecraft.white_dye": "Cum Dye",
 
   "commands.publish.started": "Reach for that slash key, you disgusting cheater.",
+  "commands.difficulty.success": "The Option has been set to %s",
+  "commands.difficulty.failure": "The Option did not change; it is already set to %s",
+  "commands.difficulty.query": "The Option is %s",
 
   "disconnect.lost": "Skill Issue",
 
