@@ -1,23 +1,25 @@
 {
   "pack": {
-    "pack_format": 69.0,
+    "pack_format": 101.1,
+    "min_format": 48,
+    "max_format": 101.1,
     "description": "Joe mama"
   },
   "language": {
     "a": {
       "name": "Value",
       "region": "Value",
-      "biderictional": false
+      "bidirectional": false
     },
     "z": {
       "name": "Value",
       "region": "Value",
-      "biderictional": false
+      "bidirectional": false
     },
     "en_us": {
       "name": "Value",
       "region": "Value",
-      "biderectional": false
+      "bidirectional": false
     }
   }
 }
