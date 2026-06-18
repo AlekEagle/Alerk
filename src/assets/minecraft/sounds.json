@@ -669,5 +669,23 @@
     ],
     "replace": true,
     "subtitle": "subtitles.block.generic.place"
+  },
+  "block.water.ambient": {
+    "sounds": [
+      {
+        "name": "liquid/water",
+        "weight": 89
+      },
+      {
+        "name": "liquid/water_short",
+        "weight": 10
+      },
+      {
+        "name": "liquid/water_long",
+        "weight": 1
+      }
+    ],
+    "replace": true,
+    "subtitle": "subtitles.block.water.ambient"
   }
 }
