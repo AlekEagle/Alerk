@@ -62,11 +62,11 @@
   "block.minecraft.white_terracotta": "Cum Terracotta",
   "block.minecraft.white_tulip": "Cum Tulip",
   "block.minecraft.white_wool": "Cum Wool",
+  "block.minecraft.white_bed": "Cum Bed",
   "color.minecraft.white": "Cum",
   "item.minecraft.firework_star.white": "Cum",
   "item.minecraft.shield.white": "Cum Shield",
   "item.minecraft.sugar": "Cocaine",
-  "item.minecraft.white_bed": "Cum Bed",
   "item.minecraft.white_dye": "Cum Dye",
 
   "commands.publish.started": "Reach for that slash key, you disgusting cheater.",
@@ -536,7 +536,7 @@
   "selectWorld.enterName": "I,",
   "selectWorld.gameMode": "Mode",
   "selectWorld.gameMode.adventure": "Obligatory Nightmare",
-  "selectWorld.gameMode.adventure.line1": "99.99999% impossible",
+  "selectWorld.gameMode.adventure.line1": "99.99999%% impossible",
   "selectWorld.gameMode.adventure.line2": "",
   "selectWorld.gameMode.creative": "Wimp",
   "selectWorld.gameMode.creative.line1": "Wimp mode for babies",
@@ -585,6 +585,7 @@
 
   "debug.copy_location.help": "F3 + C = Copy location as /tp command, hold F3 + C to get cake!",
   "debug.crash.message": "F3 + C is held down. Please keep holding this down.",
+  "debug.crash.message.rebindable": "%s + %s is held down. Please keep holding this down.",
   "debug.crash.warning": "Cake in %s...",
 
   "gameMode.adventure": "Obligatory Nightmare Mode",
