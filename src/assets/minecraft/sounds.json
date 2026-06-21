@@ -687,5 +687,61 @@
     ],
     "replace": true,
     "subtitle": "subtitles.block.water.ambient"
+  },
+  "item.brush.brushing.generic": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "random/sweep",
+        "pitch": 0.8,
+        "volume": 1
+      },
+      {
+        "name": "random/sweep",
+        "pitch": 0.9,
+        "volume": 1
+      }
+    ],
+    "subtitle": "subtitles.item.brush.brushing.generic"
+  },
+  "item.brush.brushing.gravel": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "random/sweep",
+        "volume": 1
+      }
+    ],
+    "subtitle": "subtitles.item.brush.brushing.gravel"
+  },
+  "item.brush.brushing.gravel.complete": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "random/sweep",
+        "volume": 1
+      }
+    ],
+    "subtitle": "subtitles.item.brush.brushing.gravel.complete"
+  },
+  "item.brush.brushing.sand": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "random/sweep",
+        "volume": 1
+      }
+    ],
+    "subtitle": "subtitles.item.brush.brushing.sand"
+  },
+  "item.brush.brushing.sand.complete": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "random/sweep",
+        "volume": 1
+      }
+    ],
+    "subtitle": "subtitles.item.brush.brushing.sand.complete"
   }
 }
